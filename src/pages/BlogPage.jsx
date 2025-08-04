@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { getStoredBlogs } from '../utils/storage.jsx';
-import BlogCard from '../components/BlogCard.jsx';
+import BlogCard from '../components/Blogcard.jsx';
 import CreateBlogModal from '../components/CreateBlogModal.jsx';
 
 const POSTS_PER_BATCH = 5;
